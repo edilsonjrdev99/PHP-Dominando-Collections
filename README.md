@@ -3,8 +3,8 @@
 ### Conceitos
 
 - Entendendo como funciona um array padrão no PHP (hash table)
-- Entendendo como usar um vetor no PHP splFixedArray
-- Entendendo como usar um array de lista duplamente ligada
+- Entendendo como usar um vetor no PHP (splFixedArray)
+- Entendendo como usar um array de lista duplamente ligada ($splDoublyLinkedList)
 - Entendendo consumo de memória em cada tipo de array
 
 ### Referências
