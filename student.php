@@ -20,3 +20,7 @@ $students->addStudent($people);
 foreach ($students->getStudents() as $student) {
     print_r($student->name); echo PHP_EOL;
 }
+
+$studentExist = $students->studentExists($people) ? 'Sim' : 'Nao';
+
+echo 'Existe o aluno Luiz? ' . $studentExist . PHP_EOL;

@@ -23,4 +23,9 @@ class Student
     {
         return clone $this->student;
     }
+
+    public function studentExists(object $name): bool
+    {
+        return $this->student->contains($name);
+    }
 }

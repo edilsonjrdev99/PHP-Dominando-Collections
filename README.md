@@ -4,8 +4,16 @@
 
 - Entendendo como funciona um array padrão no PHP (hash table)
 - Entendendo como usar um vetor no PHP (splFixedArray)
-- Entendendo como usar um array de lista duplamente ligada ($splDoublyLinkedList)
+- Entendendo como usar lista duplamente ligada ($splDoublyLinkedList)
 - Entendendo consumo de memória em cada tipo de array
+- Entendendo como funciona um SplObjectStorage
+
+### Estrutura de dados
+
+- **SplObjectStorage**: é uma estrutura semelhante a uma hash table que armazena objetos como chaves. Funciona tanto
+como um conjunto (set) quanto como um map (quando você associa dados a cada objeto).Mantém a ordem de inserção, mas não
+usa índices numéricos como arrays — os próprios objetos são as chaves.Possui o método contains(), que permite verificar 
+se um objeto já está armazenado.
 
 ### Referências
 
