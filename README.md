@@ -8,6 +8,13 @@
 - Entendendo consumo de memória em cada tipo de array
 - Entendendo como funciona um SplObjectStorage
 
+### Cada capítulo fala sobre
+
+1. Intimidade com arrays
+2. Dados em lista
+3. Flexibilidade em lista
+4. Conjuntos
+
 ### Estrutura de dados
 
 - **SplObjectStorage**: é uma estrutura semelhante a uma hash table que armazena objetos como chaves. Funciona tanto
