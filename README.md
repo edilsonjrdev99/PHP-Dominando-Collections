@@ -14,6 +14,7 @@
 2. Dados em lista
 3. Flexibilidade em lista
 4. Conjuntos
+5. Mapas
 
 ### Estrutura de dados
 

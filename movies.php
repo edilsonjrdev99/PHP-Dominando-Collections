@@ -13,8 +13,20 @@ $allMovies = [
     spl_object_hash($movie2) => new DateTimeImmutable('2025-09-17'),
 ];
 
-echo $allMovies[spl_object_hash($movie1)]->format('d/m/Y'); echo PHP_EOL;
+echo 'Acessando direto ' . $allMovies[spl_object_hash($movie1)]->format('d/m/Y'); echo PHP_EOL;
 
 foreach ($allMovies as $movie) {
     echo $movie->format('d/m/Y') . PHP_EOL;
+}
+
+// Implementação com SplObjectStorage
+$allMoviesSplObjectStorage = new SplObjectStorage();
+
+$allMoviesSplObjectStorage->attach($movie1, New DateTimeImmutable('2025-09-17'));
+$allMoviesSplObjectStorage[$movie2] = new DateTimeImmutable('2025-09-17');
+
+echo 'Exemplos de SplObjectStorage:' . PHP_EOL;
+
+foreach ($allMoviesSplObjectStorage as $movieSplObjectStorage) {
+    echo $allMoviesSplObjectStorage[$movieSplObjectStorage]->format('d/m/Y'); echo PHP_EOL;
 }
