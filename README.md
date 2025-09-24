@@ -7,6 +7,7 @@
 - Entendendo como usar lista duplamente ligada ($splDoublyLinkedList)
 - Entendendo consumo de memória em cada tipo de array
 - Entendendo como funciona um SplObjectStorage
+- Intimidade com a extensão DS
 
 ### Cada capítulo fala sobre
 
@@ -15,6 +16,7 @@
 3. Flexibilidade em lista
 4. Conjuntos
 5. Mapas
+6. Vetores com DS lib
 
 ### Estrutura de dados
 
@@ -26,3 +28,4 @@ se um objeto já está armazenado.
 ### Referências
 
 - [spl - estrutura de dados](https://www.php.net/manual/pt_BR/spl.datastructures.php)
+- [ds - Data Structures PHP](https://www.php.net/manual/en/book.ds.php)
