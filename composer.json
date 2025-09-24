@@ -3,5 +3,8 @@
     "psr-4": {
       "App\\": "src/"
     }
+  },
+  "require": {
+    "php-ds/php-ds": "^1.7"
   }
 }
